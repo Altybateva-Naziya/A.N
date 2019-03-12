@@ -1,0 +1,161 @@
+.header{
+    height:100px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    background: #e91330;
+}
+
+body{
+    margin: 0;
+    background: url(repit.png);
+    background-size: contain;
+    background-repeat: repeat;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.a-header-logo{
+}
+
+.site-body{
+    background:#f5f5f5;
+    width: 100%;
+    max-width: 1000px;
+    min-height: calc(100vh - 200px);
+    display: inline-block;
+    padding: 30px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.header-logo{
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header-elemet{
+    width: 105px;
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+    display: inline-block;
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+    margin-bottom: 36px;
+    margin-top: 36px;
+
+}
+
+.header-elemet:hover{
+    color:yellow;
+}
+.header-devaider{
+    display: inline-block;
+}
+
+
+@media screen and (min-width: 1100px) {
+    .header-devaider{
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 600px)  {
+    .header-devaider{
+        width: 5%;
+    }
+}
+.catter{
+    width: 100%;
+    height: calc(100vh - 100px);
+    background: url("Лз1.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.catter-intro{
+    background: rgba(0, 0, 0, 0.51);
+    color: white;
+
+}
+
+@media screen and (min-width: 1100px) {
+    .catter-intro{
+        font-size: 15px;
+        height: 420px;
+        width: 420px;
+        padding: 15px;
+        border-radius: 300px;
+        display: flex;
+        justify-content: center;
+         align-items: center;
+
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 600px)  {
+    .catter-intro{
+       font-size: 14px;
+    }
+}
+.text-headline{
+    font-size: 34px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.eaten-list{
+    display: inline-block;
+    height: 350px;
+    width: 300px;
+    margin: 30px;
+    background:white;
+}
+.eaten-list-image{
+    height: 300px;
+    width: 300px;
+
+}
+.play-list{
+    display: inline-block;
+    height: 350px;
+    width: 300px;
+    margin: 30px;
+    background:white;
+}
+.play-list-image{
+     height: 300px;
+    width: 300px;
+}
+.culture-list{
+    display: inline-block;
+    height: 350px;
+    width: 300px;
+    margin: 30px;
+    background:white;
+}
+.culture-list-image{
+     height: 300px;
+    width: 300px;
+}
+.obychai-list{
+    display: inline-block;
+    height: 350px;
+    width: 300px;
+    margin: 30px;
+    background:white;
+}
+.obychai-list-image{
+     height: 300px;
+    width: 300px;
+}
+

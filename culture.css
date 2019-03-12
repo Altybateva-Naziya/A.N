@@ -1,0 +1,18 @@
+.deader{
+    background-image: url(yzor.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100px;
+    width: 100%;
+   display: flex;
+    justify-content: center;
+    align-items: center;}
+
+body{
+    margin: 0;
+
+}
+.site-body{
+
+}
