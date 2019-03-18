@@ -74,7 +74,7 @@ body{
 .catter{
     width: 100%;
     height: calc(100vh - 100px);
-    background: url("Лз1.png") no-repeat;
+    background: url("KG.png") no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -125,9 +125,12 @@ body{
     width: 300px;
 
 }
+.eaten-list-elemet:hover{
+    color:red;
+}
 .play-list{
     display: inline-block;
-    height: 350px;
+    height: 400px;
     width: 300px;
     margin: 30px;
     background:white;
@@ -135,6 +138,9 @@ body{
 .play-list-image{
      height: 300px;
     width: 300px;
+}
+.play-list-elemet:hover{
+    color:red;
 }
 .culture-list{
     display: inline-block;
@@ -147,6 +153,9 @@ body{
      height: 300px;
     width: 300px;
 }
+.culture-list-elemet:hover{
+    color:red;
+}
 .obychai-list{
     display: inline-block;
     height: 350px;
@@ -157,5 +166,8 @@ body{
 .obychai-list-image{
      height: 300px;
     width: 300px;
+}
+.obychai-list-elemet:hover{
+    color:red;
 }
 
