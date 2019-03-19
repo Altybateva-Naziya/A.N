@@ -170,3 +170,11 @@ body{
 .obychai-list-elemet:hover{
     color:red;
 }
+.culture-devaider{
+    display: inline-block;
+}
+.camera{
+    position: fixed;
+    right: 25px;
+    top: 0px;
+}
