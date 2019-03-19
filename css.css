@@ -173,8 +173,10 @@ body{
 .culture-devaider{
     display: inline-block;
 }
+
 .camera{
     position: fixed;
-    right: 25px;
+    right: 18px;
     top: 0px;
+    font-weight: bold;
 }
