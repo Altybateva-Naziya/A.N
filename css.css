@@ -41,11 +41,11 @@ body{
 }
 
 .header-elemet{
-    width: 105px;
+    width: 70px;
     text-decoration: none; /* Отменяем подчеркивание у ссылки */
     display: inline-block;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 26px;
     color: black;
     margin-bottom: 36px;
     margin-top: 36px;
@@ -125,9 +125,6 @@ body{
     width: 300px;
 
 }
-.eaten-list-elemet:hover{
-    color:red;
-}
 .play-list{
     display: inline-block;
     height: 400px;
@@ -138,9 +135,6 @@ body{
 .play-list-image{
      height: 300px;
     width: 300px;
-}
-.play-list-elemet:hover{
-    color:red;
 }
 .culture-list{
     display: inline-block;
@@ -153,8 +147,12 @@ body{
      height: 300px;
     width: 300px;
 }
+.culture-list-elemet{
+     text-decoration: none; /* Отменяем подчеркивание у ссылки */
+    color:black;
+}
 .culture-list-elemet:hover{
-    color:red;
+    color: #ee2517;
 }
 .obychai-list{
     display: inline-block;
@@ -167,16 +165,6 @@ body{
      height: 300px;
     width: 300px;
 }
-.obychai-list-elemet:hover{
-    color:red;
-}
 .culture-devaider{
     display: inline-block;
-}
-
-.camera{
-    position: fixed;
-    right: 18px;
-    top: 0px;
-    font-weight: bold;
 }
