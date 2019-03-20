@@ -1,0 +1,13 @@
+.jeader{
+    background-image: url(16801.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100px;
+    width: 100%;
+   display: flex;
+    justify-content: center;
+    align-items: center;}
+body{
+    margin: 0;
+}
