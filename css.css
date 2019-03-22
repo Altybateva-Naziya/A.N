@@ -41,7 +41,7 @@ body{
 }
 
 .header-elemet{
-    width: 70px;
+    width: 50px;
     text-decoration: none; /* Отменяем подчеркивание у ссылки */
     display: inline-block;
     font-weight: bold;
