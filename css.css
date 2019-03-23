@@ -40,7 +40,6 @@ body{
     margin-bottom: 10px;
 }
 
-
 .header-elemet{
     width: 50px;
     text-decoration: none; /* Отменяем подчеркивание у ссылки */
@@ -52,6 +51,7 @@ body{
     margin-top: 30px;
 
 }
+
 .header-elemet:hover{
     color:yellow;
 }
@@ -167,4 +167,16 @@ body{
 }
 .culture-devaider{
     display: inline-block;
+}
+.place-list{
+    display: inline-block;
+    height: 350px;
+    width: 300px;
+    margin: 30px;
+    background:white;
+}
+.place-list-image{
+    height: 300px;
+    width: 300px;
+
 }
