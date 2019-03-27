@@ -108,10 +108,11 @@ body{
     }
 }
 .text-headline{
-    font-size: 34px;
+    font-size: 36px;
     text-align: center;
-    color: white;
+    color: #ffdd01;
     font-weight: bold;
+    text-shadow: 1px 1px 7px black;
 }
 .eaten-list{
     display: inline-block;
