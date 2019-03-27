@@ -1,16 +1,17 @@
 .oeader{
-    background-image: url(IMG-139.jpg);
+    background-image: url(эпос.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-     height:100px;
+    height:100px;
     width: 100%;
-    display: flex;
+   display: flex;
     justify-content: center;
     align-items: center;}
+
 body{
     margin: 0;
-}
-.site-body{
 
+}
+.site-body {
 }
