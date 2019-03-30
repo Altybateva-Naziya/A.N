@@ -182,3 +182,28 @@ body{
     width: 300px;
 
 }
+.hit{
+    background: rgba(255, 255, 255, 0.5);
+    height: 400px;
+    width: 400px;
+    border-radius: 80px;
+    overflow: auto;
+    text-shadow: 1px 1px 5px #ddbd09;
+    padding: 5px;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+.rood{
+    z-index: 10000;
+    background: url("стрелка.png");
+    background-size: cover;
+    margin-left: calc(100% - 100px);
+    height:50px;
+    width: 50px;
+}
