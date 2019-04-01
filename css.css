@@ -1,5 +1,4 @@
 .header{
-    
     height:100px;
     width: 100%;
     display: inline-block;
@@ -7,7 +6,7 @@
     background: #e91330;
 }
 
-body{
+body {
     margin: 0;
     background: url(repit.png);
     background-size: contain;
@@ -15,7 +14,6 @@ body{
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
 }
-
 
 .a-header-logo{
 
@@ -31,6 +29,9 @@ body{
     color: black;
     font-size: 20px;
     font-weight: 500;
+}
+::-webkit-scrollbar {
+
 }
 
 .header-logo{
@@ -187,7 +188,7 @@ body{
     background: rgba(255, 255, 255, 0.5);
     height: 400px;
     width: 400px;
-    border-radius: 80px;
+    border-radius: 30px;
     overflow: auto;
     text-shadow: 1px 1px 5px #ddbd09;
     padding: 5px;
@@ -196,10 +197,6 @@ body{
     width: 0px;  /* remove scrollbar space */
     background: transparent;  /* optional: just make scrollbar invisible */
 }
-/* optional: show position indicator in red */
-::-webkit-scrollbar-thumb {
-    background: #FF0000;
-}
 .rood{
     z-index: 10000;
     background: url("стрелка.png");
@@ -207,4 +204,16 @@ body{
     margin-left: calc(100% - 100px);
     height:50px;
     width: 50px;
+}
+
+.toot{
+    background: whitesmoke;
+    width: 990px;
+    overflow: auto;
+    padding: 7px;
+}
+::-webkit-scrollbar {
+    width:20px;  /* remove scrollbar space */
+    background: #aeaeae;
+
 }
