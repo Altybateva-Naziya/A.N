@@ -1,10 +1,3 @@
-.header{
-    height:100px;
-    width: 100%;
-    display: inline-block;
-    text-align: center;
-    background: #e91330;
-}
 
 body {
     margin: 0;
@@ -34,33 +27,7 @@ body {
 
 }
 
-.header-logo{
-    display: inline-block;
-    height: 80px;
-    width: 80px;
-    vertical-align: middle;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 
-.header-elemet{
-    width: 50px;
-    text-decoration: none; /* Отменяем подчеркивание у ссылки */
-    display: inline-block;
-    font-weight: bold;
-    font-size: 26px;
-    color: black;
-    margin-bottom: 30px;
-    margin-top: 30px;
-
-}
-
-.header-elemet:hover{
-    color:yellow;
-}
-.header-devaider{
-    display: inline-block;
-}
 
 
 @media screen and (min-width: 1100px) {
@@ -217,3 +184,75 @@ body {
     background: #aeaeae;
 
 }
+
+@media screen and (min-width: 920px) {
+     .header{
+    height:100px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    background: #e91330;
+}
+    .header-logo{
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header-elemet{
+    width: 50px;
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+    display: inline-block;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.header-elemet:hover{
+    color:yellow;
+}
+.header-devaider{
+    display: inline-block;
+}
+   }
+
+@media screen and (max-width: 920px) {
+     .header{
+    height:100px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    background: #e91330;
+}
+    .header-logo{
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header-elemet{
+    width: 50px;
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+
+}
+
+.header-elemet:hover{
+    color:yellow;
+}
+.header-devaider{
+    display: inline-block;
+}
+   }
