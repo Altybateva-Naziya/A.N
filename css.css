@@ -25,6 +25,21 @@ body {
     }
 }
 
+.header-elemet{
+    width: 50px;
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+    display: inline-block;
+    font-weight: bold;
+    font-size:60px;
+    color: black;
+
+}
+.mit {
+        color: #ffe71e;
+        text-shadow: 1px 1px 7px #000000;
+        font-size: 40px;
+    }
+
 @media screen and (max-width: 1100px) and (min-width: 600px)  {
     .header-devaider{
         width: 5%;
@@ -47,6 +62,7 @@ body {
 
 }
 
+
 @media screen and (min-width: 1100px) {
     .catter-intro{
         font-size: 15px;
@@ -60,33 +76,44 @@ body {
 
     }
 }
+.mit {
+        color: #ffe71e;
+        text-shadow: 1px 1px 7px #000000;
+        font-size: 26px;
+    }
 
 @media screen and (max-width: 1100px) and (min-width: 600px)  {
     .catter-intro{
-       font-size: 14px;
+       font-size: 20px;
     }
 }
 .text-headline{
     text-align: center;
     color: #ffdd01;
     font-weight: bold;
-    text-shadow: 1px 1px 7px black;
+    text-shadow: 1px 1px 12px black;
+
 }
 .culture-devaider{
     display: inline-block;
 }
+.mit{
+    color: #ffe71e;
+    text-shadow: 1px 1px 7px #000000;
+    font-size: 39px;
+    text-align: justify;
+
+
+}
 .hit{
     background: rgba(255, 255, 255, 0.5);
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 500px;
     border-radius: 30px;
     overflow: auto;
+    font-size: 21px;
     text-shadow: 1px 1px 5px #ddbd09;
     padding: 5px;
-}
-::-webkit-scrollbar {
-    width: 0px;  /* remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible */
 }
 .rood{
     z-index: 10000;
@@ -229,6 +256,12 @@ body {
 .text-headline{
     font-size: 30px;
 }
+    .mit {
+        color: #ffe71e;
+        text-shadow: 1px 1px 7px #000000;
+        font-size: 14px;
+    }
+
 .eaten-list{
     display: inline-block;
     height: 300px;
